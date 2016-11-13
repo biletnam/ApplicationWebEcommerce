@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
+<<<<<<< HEAD
+<Context antiJARLocking="true" path="/projet_site_web">
+  <Resource auth="Container" driverClassName="oracle.jdbc.OracleDriver" maxActive="10" maxIdle="3" maxWait="10000" name="jdbc/projet_site_web"
+  password="berrazar" type="javax.sql.DataSource" url="jdbc:oracle:thin:@ensioracle1.imag.fr:1521:ensioracle1" username="berrazar"/>
+</Context>
+=======
+<Context antiJARLocking="true" path="/bibliography">
+<Resource
+auth="Container"
+type="javax.sql.DataSource"
+driverClassName="oracle.jdbc.OracleDriver"
+url="jdbc:oracle:thin:@ensioracle1.imag.fr:1521:ensioracle1"
+maxActive="10"
+maxIdle="3"
+maxWait="10000"
+name="jdbc/nom_de_votre_bd"
+password="le vôtre"
+username="le vôtre"
+/>
+</Context>
+>>>>>>> d1a65d2276045fceada60303760fcf1158229224
+=======
+<Context antiJARLocking="true" path="/projet_site_web">
+  <Resource auth="Container" driverClassName="oracle.jdbc.OracleDriver" maxActive="10" maxIdle="3" maxWait="10000" name="jdbc/projet_site_web"
+  password="berrazar" type="javax.sql.DataSource" url="jdbc:oracle:thin:@ensioracle1.imag.fr:1521:ensioracle1" username="kammounh"/>
+</Context>
+
+>>>>>>> e9102b3a94b40f5c20de169b29b64c56a6079758
